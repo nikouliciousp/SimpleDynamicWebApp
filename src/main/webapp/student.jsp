@@ -8,8 +8,8 @@
 </head>
 <body>
 	<label for = "firstname">Firstname</label>
-	<input type = "text" id = "firstname" value = "<%=  %>" readonly><br> 
+	<input type = "text" id = "firstname" value = "<%= request.getAttribute("firstname") %>" readonly><br> 
 	<label for = "lastname">Lastname</label>
-	<input type = "text" id = "lastname" value = "<%=  %>" readonly><br>
+	<input type = "text" id = "lastname" value = "<%= request.getAttribute("lastname") %>" readonly><br>
 </body>
 </html>
